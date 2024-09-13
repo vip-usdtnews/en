@@ -1,0 +1,17 @@
+.go_back___1-f-c { position: absolute; top: 24px; left: 16px; width: 24px; height: 24px; background: url("static/icon-go-back.820d05e0.svg") 50% center / contain no-repeat; cursor: pointer; }
+.btn___3NA9b { display: flex; flex-shrink: 0; align-items: center; justify-content: center; color: rgb(255, 255, 255); font-weight: 600; font-size: 16px; font-style: normal; border: none; border-radius: 8px; cursor: pointer; }
+.btn___3NA9b:focus, .btn___3NA9b:hover, .btn___3NA9b[disabled] { color: rgb(255, 255, 255) !important; opacity: 0.7 !important; }
+.get_start_next___1Sw83 { display: flex; flex-direction: column; height: 100%; }
+.get_start_next___1Sw83 .header___LFDZ2 { display: block; height: 70px; margin-top: 24px; font-weight: 500; font-size: 16px; text-align: center; }
+.get_start_next___1Sw83 img[title="banner"] { width: 216px; margin: 0px auto; padding-top: 16px; }
+.get_start_next___1Sw83 .card___3ZGCe { display: flex; justify-content: center; padding-top: 16px; }
+.get_start_next___1Sw83 .card___3ZGCe img { height: 160px; margin: 0px auto; }
+.get_start_next___1Sw83 .card___3ZGCe p { font-weight: 500; font-size: 16px; text-align: center; }
+.get_start_next___1Sw83 .title___5jijw { margin-bottom: 16px; color: rgb(50, 60, 82); font-weight: 600; font-size: 20px; line-height: 26px; text-align: center; }
+.get_start_next___1Sw83 .desc___2fvVk { width: 308px; height: 120px; margin: auto; color: rgb(93, 102, 123); font-size: 16px; line-height: 24px; text-align: center; }
+.get_start_next___1Sw83 .btnBlock___3XMLL { margin-top: auto; margin-bottom: 32px; padding: 0px 16px; }
+.get_start_next___1Sw83 .ant-carousel { padding: 0px 16px; }
+.get_start_next___1Sw83 .ant-carousel .slick-dots { position: static; margin-top: 30px; }
+.get_start_next___1Sw83 .ant-carousel .slick-dots li { height: 6px; width: 6px !important; }
+.get_start_next___1Sw83 .ant-carousel .slick-dots li button { width: 6px; height: 6px; background: rgba(30, 63, 111, 0.4); border-radius: 50%; }
+.get_start_next___1Sw83 .ant-carousel .slick-active button { background: rgb(30, 63, 111) !important; }

